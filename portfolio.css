@@ -1,0 +1,246 @@
+*{
+    padding: zero;
+    margin: zero;
+   background-color: black;
+    color: white;
+}
+button {
+    border-radius: .6rem;
+    padding: .6rem;
+    cursor: pointer;
+}
+
+
+
+
+
+nav {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+nav .logo img {
+    height: 50px;
+    padding: .5rem 1rem;
+}
+.midnav {
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+}
+
+.middlenav {
+    gap: 2rem;
+    padding: .5rem;
+}
+
+.list {
+    color:rgb(233, 6, 6);
+}
+
+.gradient img {
+    height: 10px;
+}
+
+.gradient{
+    background-color: red;
+    border-radius: .6rem;
+    padding: .5rem;
+}
+
+.intro{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+.text {
+    display: block;
+}
+
+.textont {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.intro .socialmedias i {
+    display:grid ;
+    height: 45px;
+    gap: 7px;
+}
+
+.About {
+    display:flex;
+    gap: 20rem;
+    margin-top: 6rem;
+    margin-inline: 6rem;
+}
+.About img {
+    padding: 2rem;
+}
+
+.info {
+    padding: .2rem;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bty {
+    font-weight: bold;
+}
+
+.Services{
+    display: flex;
+    gap: 10rem;
+    margin-top: 6rem;
+    justify-content: space-around;
+}
+.servicetext {
+    font-size: medium;
+}
+
+
+.border video {
+    width: 35rem;   
+}
+
+.border {
+    padding: .5rem ; 
+    box-shadow: 3px 6px 3px red;
+    border-radius: 1rem;
+    border-top-style: hidden;
+}
+
+.getintouch {
+    display: flex;
+    border: 0px solid;
+    margin-top: 6rem;
+    justify-content: space-around;
+    border-radius: 1rem;
+    box-shadow: 2px 6px 2px red;
+}
+
+.portfolio {
+    display: grid;
+    justify-content: center;
+    padding: 4rem;
+    margin-top: 6rem;
+}
+
+.flexbutton {
+display: flex;
+gap: 2rem;
+justify-content: center;
+
+}
+
+.flexbutton button {
+    background-color:black;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    justify-content: space-around;
+    padding: 3rem;
+}
+.grid .projectimage {
+    padding: 2rem;
+    
+}
+
+.folio{
+    border: none;
+    box-shadow: 3px 2px 3px red inset;
+}
+
+.Works {
+    border: 0px solid;
+    border-radius: 1rem;
+    padding: .1rem;
+    box-shadow:2px 6px 2px red ;
+    border-top-style: hidden;
+    display: flex;
+}
+
+.me {
+    margin-top: 6rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+
+.form {
+border: 0px solid;
+border-radius: .5rem;
+border-top-style: hidden;
+padding: 1rem;
+box-shadow: 3px 2px 3px red;
+}
+.form div {
+    padding: 1rem;
+}
+
+.name {
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 0px solid;
+    border-top-style: hidden;
+    box-shadow: 3px 2px 3px red;   
+}
+
+.message{
+    padding: 5rem;
+    border-radius: .5rem;
+    border: 0px solid;
+    border-top-style: hidden;
+    box-shadow: 3px 2px 3px red; 
+}
+.submit {
+    padding: .4rem;
+    cursor: pointer;
+}
+
+.contact img {
+    border-radius: .5rem;
+    border:none;
+}
+
+footer{
+    display: grid;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+footer .IMG {
+padding-inline: 10rem;
+padding-left: 18rem;
+}
+
+footer .text {
+    padding-left: 7rem;
+    font-size: medium;
+}
+footer .socialmedias {
+padding-left: 12rem;
+}
+
+footer .socialmedias i {
+padding-inline: 1rem;  
+}
+
+.Privacy {
+display: flex;
+border-top-style: groove;
+border-color: red;
+gap: 30px;
+font-size: small;
+padding-left: 4rem;
+padding-right: 3rem;
+}
